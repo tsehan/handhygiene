@@ -16,7 +16,22 @@ function random_video() {
 			'M8AKTACyiB0'
 	];
 	var index=Math.floor(Math.random() * videos.length);
-	var html='<div class="span"><iframe width="640" height="390" src="http://www.youtube.com/embed/' + videos[index] + '?version=3" frameborder="0" allowfullscreen></iframe></div>';
+	var html='<div class="span"><iframe width="640" height="390" src="http://www.youtube.com/embed/' + videos[index] + '?version=3&rel=0" frameborder="0" allowfullscreen></iframe></div>';
+	document.write(html);
+};
+</script>
+
+<script>
+function random_fact() {
+	var fact = [
+    		'80% of all infectious diseases are transmitted by touch.',
+			'The Solution to Pollution is Dilution.',
+			'Fingernails and the surrounding areas harbor the most microorganisms.',
+			'Hot or warm water has not been proven to increase the effectiveness of hand washing.',
+			'Damp hands spread 1,000 times more germs than dry hands.'
+	];
+	var index=Math.floor(Math.random() * fact.length);
+	var html='<div class="span"><small>' + fact[index] + '</small></div>';
 	document.write(html);
 };
 </script>
@@ -44,9 +59,17 @@ function random_video() {
 
 <div align="center">
 <h1>Hand Hygiene</h1>
+<hr width="80%">
 <h2>The Facts</h2>
 
 <script type="text/javascript">
+	random_fact();
+</script>
+
+<hr width="80%">
+<br>
+
+<script type="text/javascript">	
     random_video();
 </script>
 
@@ -74,12 +97,12 @@ function random_video() {
 		</li>
        <li>
 			<h3>Submit</h3>
-			<p>Take the poster challenge. <a href="#submit" onclick="expand(4);">Check it out here.</a></p>
+			<p>Take the poster challenge. Check it out <a href="#submit" onclick="expand(4);">here.</a></p>
 		</li>
 	</ul>
    </div>
 </div>
-<hr>
+<hr width="80%">
 
 <div id=hide0 style="display:none;">
 	<h3>Quick Facts and Links</h3>
@@ -91,6 +114,8 @@ function random_video() {
     You only need a coin-sized amount of alcohol to disinfect your hands. More information from HPB <a href="http://www.hpb.gov.sg/HOPPortal/health-article/5652">here.</a>
     <p>
     Hand hygiene is one of the most important ways to prevent the spread of infections. See what the <a href="http://www.cdc.gov/handhygiene/">CDC</a> has to say.
+    <p>
+    Do you know how to disinfect your iPhone? Apple <a href="http://support.apple.com/kb/ht3226#iphones">tells you how.</a>
     </small>
     </div>
 </div>
