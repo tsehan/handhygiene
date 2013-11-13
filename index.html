@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hand Hygiene Facts</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<link href="css/lightbox.css" rel="stylesheet" />
+
+<script>
+function random_video() {
+	var videos = [
+    		'sdB-DV3o4YA',
+			'zo9FPgt5T58',
+			'_kMPAc_GTBY',
+			'M8AKTACyiB0'
+	];
+	var index=Math.floor(Math.random() * videos.length);
+	var html='<div class="span"><iframe width="640" height="390" src="http://www.youtube.com/embed/' + videos[index] + '?version=3" frameborder="0" allowfullscreen></iframe></div>';
+	document.write(html);
+};
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+        var totalNumberOfBoxes = 5;
+        function expand (id) {
+            for ( var i = 0; i < totalNumberOfBoxes; i++ ) {
+                if ( i == id ) {
+                    $('#hide' + i).show();
+                } else {
+                    $('#hide' + i).hide();
+                }
+            }
+        }
+</script>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
+
+</head>
+
+<body>
+
+<div align="center">
+<h1>Hand Hygiene</h1>
+<h2>The Facts</h2>
+
+<script type="text/javascript">
+    random_video();
+</script>
+
+<a name="facts"></a>
+<a name="quiz"></a>
+<a name="test"></a>
+<a name="posters"></a>
+<a name="submit"></a>
+
+<div id="nav">
+	<div>
+    <ul>
+		<li>
+			<h3>Learn</h3>
+			<p>Read about <a href="#facts" onclick="expand(0);">the facts.</a></p>
+			<p>A fan of <a href="#quiz" onclick="expand(1);">interactive learning?</a></p> 
+       </li>
+		<li>
+			<h3>Quiz</h3>
+           <p>Are you ready to <a href="#test" onclick="expand(2);">test yourself?</a></p>
+		</li>
+       <li>
+			<h3>Posters</h3>
+			<p>Check out the submitted <a href="#posters" onclick="expand(3);">posters.</a></p>
+		</li>
+       <li>
+			<h3>Submit</h3>
+			<p>Take the poster challenge. <a href="#submit" onclick="expand(4);">Check it out here.</a></p>
+		</li>
+	</ul>
+   </div>
+</div>
+<hr>
+
+<div id=hide0 style="display:none;">
+	<h3>Quick Facts and Links</h3>
+	<div class="wrap">
+    <small>
+    The common flora of the hand is <i>Staph epidermidis</i>. Check out more interesting facts from the 
+    <a href="http://www.who.int/gpsc/5may/tools/9789241597906/en/">WHO guidelines.</a>
+    <p>
+    You only need a coin-sized amount of alcohol to disinfect your hands. More information from HPB <a href="http://www.hpb.gov.sg/HOPPortal/health-article/5652">here.</a>
+    <p>
+    Hand hygiene is one of the most important ways to prevent the spread of infections. See what the <a href="http://www.cdc.gov/handhygiene/">CDC</a> has to say.
+    </small>
+    </div>
+</div>
+
+<div id=hide1 style="display:none;">
+	<div class="wrap">
+	<h3>Flashcards</h3>
+    <iframe src="https://quizlet.com/30312364/flashcards/embedv2" height="410" width="100%" style="border:0;"></iframe>
+    </div>
+</div>
+
+<div id=hide2 style="display:none;">
+	<div class="wrap">
+	<h3>Quiz</h3>
+    <iframe src="http://mmohdsal.polldaddy.com/s/hand-hygiene-post-test?p=1" height="1510" width="100%" style="border:0;"></iframe>
+    </div>
+</div>
+
+<div id=hide3 style="display:none;">
+	<h3>Posters</h3>
+	<div class="wrap">
+    <a href="img/poster1.jpg" data-lightbox="poster"><img src="img/thumb1.jpg"></a>
+	<a href="img/poster2.jpg" data-lightbox="poster"><img src="img/thumb2.jpg"></a>
+	<a href="img/poster3.jpg" data-lightbox="poster"><img src="img/thumb3.jpg"></a>
+   	<a href="img/poster4.jpg" data-lightbox="poster"><img src="img/thumb4.jpg"></a>
+    </div>
+</div>
+
+<div id=hide4 style="display:none;">
+	<h3>Submit</h3>
+	<div class="wrap">
+    Submit your posters via   
+    <a href="https://www.wetransfer.com/">WeTransfer</a> to infection_control@ttsh.com.sg.
+    <br><br>
+    The best posters will be printed and posted on the wards!
+    <br><br>
+    <small>
+    Posters must not used copyrighted material and must be original work. Posters should be in PDF.
+    </small>
+    </div>
+</div>
+
+<footer class="footer">
+<br><br>
+Tell your friends: 
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="tsehan">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</footer>
+
+<br>
+</body>
+</html>
