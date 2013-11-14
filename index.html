@@ -31,7 +31,7 @@ function random_fact() {
 			'Damp hands spread 1,000 times more germs than dry hands.'
 	];
 	var index=Math.floor(Math.random() * fact.length);
-	var html='<div class="span"><small><span style="color:#00688B;"><a href="javascript:document.location.reload();">Random fact</a> :</span> ' + fact[index] + '</small></div>';
+	var html='<div class="span"><small><span style="color:#00688B;"><a href="javascript:document.location.reload(true);">Random fact</a> :</span> ' + fact[index] + '</small></div>';
 	document.write(html);
 };
 </script>
