@@ -1,7 +1,7 @@
 /* MAIN ––––––––––––––––––––– */
 html {overflow-y:scroll;}
 body {
-	font-family:BrandonGrotesque-Bold, Futura, Didact Gothic, Verdana, serif;
+	font-family:BrandonGrotesque-Bold, Futura, Questrial, Verdana, serif;
 	color:#222;
 	font-size:14px;
 	margin:0;
@@ -25,7 +25,7 @@ img.fade {display:none;}
 /* HEADERS ––––––––––––––––––––– */
 h1 {
 	position:relative;
-	font-family:BrandonGrotesque-Bold, Futura, Didact Gothic, Verdana, serif;
+	font-family:BrandonGrotesque-Bold, Futura, Questrial, Verdana, serif;
 	font-size:48px;
 	text-transform:uppercase;
 	text-align:center;
@@ -41,7 +41,7 @@ h2 {
 	padding:1px 0;
 }
 h3 {
-	font-family:BrandonGrotesque-Bold, Futura, Didact Gothic, Verdana, serif;
+	font-family:BrandonGrotesque-Bold, Futura, Questrial, Verdana, serif;
 	font-size:20px;
 	text-transform:uppercase;
 	margin:0;
@@ -49,7 +49,7 @@ h3 {
 	color:#00688B;
 }
 h4 {
-	font-family:BrandonGrotesque-Bold, Futura, Didact Gothic, Verdana, serif;
+	font-family:BrandonGrotesque-Bold, Futura, Questrial, Verdana, serif;
 	font-size:16px;
 	text-transform:uppercase;
 	margin:0;
@@ -67,7 +67,7 @@ h2, h3, h4 {font-weight:normal;}
 	text-align:center;
 }
 .top span {
-	font-family:BrandonGrotesque-Regular, Futura, Didact Gothic, Verdana, serif;
+	font-family:BrandonGrotesque-Regular, Futura, Questrial, Verdana, serif;
 	font-size:24px;
 	color:#BBB;
 	margin-top:42px;
